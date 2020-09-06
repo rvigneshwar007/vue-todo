@@ -5,7 +5,7 @@ import PostsManager from '@/components/PostsManager'
 import Auth from '@okta/okta-vue'
 
 Vue.use(Auth, {
-  issuer: 'https://{https://dev-581212.okta.com}/oauth2/default',
+  issuer: 'https://dev-581212.okta.com/oauth2/default',
   client_id: '0oavzrt6nUA47Tms04x6',
   redirect_uri: 'http://localhost:8080/implicit/callback',
   scope: 'openid profile email'
